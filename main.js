@@ -33,10 +33,12 @@ var album=[
     "My Cousin5,SHIVAY AGARWAL",
    
   ]
+  var updateImage=[album];
+   var updateName=[name];
   var i=0;
   function nextslide(){
-    document.getElementById("font").innerHTML=names [i];
-    document.getElementById("image").src=album[i];
+    document.getElementById("font").innerHTML=updateName [i];
+    document.getElementById("image").src=updateImage[i];
     if(i==13)
       i=0;
       i++;   
