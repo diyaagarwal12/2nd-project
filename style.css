@@ -1,0 +1,16 @@
+html{
+    text-align:center;
+    background-color:black;
+    border:solid;
+    border-width:7px;
+    border-color:#FFC107;
+  }
+  h1{
+    color:white;
+    font-family:cursive;
+  }
+  p{
+    color:#FFF59D;
+    font-family:ui-serif;
+  }
+  
